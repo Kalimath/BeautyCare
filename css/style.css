@@ -36,7 +36,8 @@ body {
     /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
-    background: url(../img/Zoom_Bouquet_Sperience_large.jpg)repeat top center fixed;
+    /* background: url(../img/Zoom_Bouquet_Sperience_large.jpg)repeat top center fixed; */
+    background: url(../img/background/goldSparks_1080p.png)repeat top center fixed;
     
 
 
