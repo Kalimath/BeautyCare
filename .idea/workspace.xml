@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93e1a584-4c5a-401f-a6e7-cc4928b374e7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Odirta5GuMzqiRI3gC0JvBZV8I" />
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/schoonheidsinstituut.html" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.face.html#LED_Expert_Face">
+    <configuration default="true" type="FirefoxRemoteDebugType">
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" url="http://localhost:63342/Beauty Care site/schoonheidsinstituut.html" />
+      </method>
+    </configuration>
+    <configuration name="face.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Beauty Care site/face.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="face.html#LED_Expert_Face" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Beauty Care site/face.html#LED_Expert_Face" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.face.html" />
+      <item itemvalue="JavaScript Debug.face.html#LED_Expert_Face" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.face.html#LED_Expert_Face" />
+        <item itemvalue="JavaScript Debug.face.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93e1a584-4c5a-401f-a6e7-cc4928b374e7" name="Default" comment="" />
+      <created>1544953066402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544953066402</updated>
+      <workItem from="1544953067597" duration="1772000" />
+      <workItem from="1551349638453" duration="423000" />
+      <workItem from="1551433458968" duration="31000" />
+      <workItem from="1551433644625" duration="11438000" />
+      <workItem from="1552485091066" duration="5436000" />
+      <workItem from="1552904836887" duration="19116000" />
+      <workItem from="1553249649091" duration="1863000" />
+      <workItem from="1555238831068" duration="4873000" />
+      <workItem from="1564314088885" duration="996000" />
+      <workItem from="1564400868239" duration="799000" />
+      <workItem from="1570868326954" duration="5492000" />
+      <workItem from="1570873837690" duration="6809000" />
+      <workItem from="1570967610441" duration="219000" />
+      <workItem from="1571570717684" duration="3252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

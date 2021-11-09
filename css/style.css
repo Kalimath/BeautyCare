@@ -1,0 +1,686 @@
+header nav {
+    clear: both;
+    padding-left: 5px;
+}
+
+header nav li ul {
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+/*kerst-addon(banner in comment)*/
+
+banner {
+    display: block;
+    /*    background-image: url(../img/Zoom%20Bouquet.jpg);
+    height: 90px;
+    width: auto;*/
+}
+
+body {
+    /*kerst-addon(onderstaande decomment)*/
+    /* background: url(../img/75307%20Zoom%20Bouquet%20Sperience%20v1.jpg)no-repeat center center fixed; */
+    
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    /* background-repeat: no-repeat; */
+    /* background-position: top; */
+    /*kerst-addon(achtergrondkleur in comment)*/
+    /*background-color: #FFFFFF;*/
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    background: url(../img/Zoom_Bouquet_Sperience_large.jpg)repeat top center fixed;
+    
+
+
+}
+
+header nav a {
+    font-family: Bellefair;
+    color: white;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    font-size: 120%;
+}
+
+nav a.current{
+    color: #B38D59;
+}
+
+header nav a:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+    border-color: white;
+    
+}
+
+header {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 3;
+}
+
+header h1 {
+    font-size: 470%;
+    padding-top: 30px;
+    font-family: great vibes;
+    text-align: center;
+}
+
+header .slog {
+    margin-bottom: 15px;
+    font-family: great vibes;
+    font-size: 180%;
+    padding-top: 8px;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .emblem{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding-top: 40px;
+    padding-right: 30px;
+    max-width: 200px;
+    width: 80%;
+} */
+
+main a{
+    color: #706259; 
+}
+
+main a:hover{
+    color:  #B38D59;
+}
+
+.subLink {
+    color: #B38D59;
+    text-decoration: underline;
+}
+
+main .subLink:hover {
+
+    color: #706259;
+}
+
+a:focus {
+    outline: 2px ridge cornflowerblue;
+}
+
+main {
+    font-size: 120%;
+    padding: 15px;
+    color: #706259;
+    text-align: center;
+    max-width: 1200px;
+
+    /*kerst-addon*/
+    background-color: white;
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+    /* Margin for transparent borders */
+    max-width: 90%;
+    align-self: center;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+  }
+
+main h2 {
+    padding: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+main article {
+    padding: 20px;
+
+}
+
+main .summageArticle .summaryTitle {}
+
+
+main article ul.summary {
+    padding-bottom: 30px;
+    font-family: inherit;
+    border: 2px;
+    color: #B38D59;
+    align-items: center;
+
+}
+
+
+
+main article ul.summary li {
+    line-height: 2;
+    font-size: inherit;
+    padding-left: 5px;
+    text-align: left;
+    list-style: disc;
+    list-style-position: outside;
+
+}
+
+li .noMark {
+    list-style-type: lower-roman;
+}
+
+main article p {
+    margin: auto;
+    font-family: Bellefair;
+    font-size: 120%;
+    line-height: 1.4;
+    padding: 10px 0px 30px 0px;
+}
+
+.floating {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.imagenarrow {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+
+}
+
+.logoarticle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 200px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.logoinarticle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 200px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.imageround {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.imageround:after {
+    display: block;
+}
+
+.imagewide {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.imagelong {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 300px;
+    max-height: 500px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.alert{
+    
+    margin:auto;
+    border: 5px solid red;
+    font-size: 120%;
+}
+
+.alert h2{
+    color: red;
+}
+
+.alert em{
+    color: red;
+}
+
+main .centered {
+    width: 70%;
+    height: 400px;
+}
+
+.quote {
+    clear: both;
+    padding: 20px;
+    border-color: aqua;
+    margin: 2px;
+    font-size: 120%;
+
+}
+
+.contactImage {
+    max-height: 500px;
+}
+
+.videoframe {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    min-height: 300px;
+    max-height: 400px;
+}
+
+.frame {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    height: 100%;
+    max-height: 395px;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+h3 {
+    display: block;
+    font-family: handlee;
+    font-size: 170%;
+    font-weight: bold;
+    color: #B38D59;
+    padding: 15px 0px 10px 0px;
+
+
+
+}
+
+main em {
+    color: #B38D59;
+    font-size: 130%;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.black {
+    color: black;
+    font-size: 5vw;
+}
+
+.quote > p {
+    padding-top: 5px;
+    font-family: handlee;
+    font-size: 140%
+    
+}
+
+.welcomeQuote > p{
+    font-family: Parisienne; 
+    font-size: 260%;
+}
+
+.welcomeQuote > p > em{
+    font-family: inherit; 
+}
+
+.ac {
+    border-bottom: 2px solid #706259;
+
+}
+
+.articleFromBrand{
+    border-left: 2px solid #706259;
+}
+
+ac:first-child {
+    border-top: 2px solid #706259;
+}
+
+
+.album {
+    margin: 2%;
+    border: 1px solid #ccc;
+    float: left;
+    min-width: 140px;
+    max-width: 180px;
+}
+
+div.album:hover {
+    border: 1px solid #777;
+}
+
+div.album img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.grid-container {
+    height: auto;
+    font-family: Bellefair;
+}
+
+.gallery-container:hover {
+    border: 2px solid #706259;
+    transition: 0.4s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    color: #B38D59;
+
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    color: #B38D59;
+    border-radius: 10em;
+    font-family: Bellefair;
+    font-size: 150%;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    background: transparent;
+    border-color: #B38D59;
+    border-style: solid;
+}
+
+.button:hover {
+    color: #706259;
+    border-color: #706259;
+}
+
+
+
+footer {
+
+    background-color: black;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+footer .footer_left {
+    font-size: 140%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+footer .footer_right {
+    margin: auto;
+    font-size: 140%;
+}
+
+.medialinks {
+    padding: 15px;
+}
+
+.footer_middle {
+    font-size: 230%;
+    margin: auto;
+}
+
+footer .footer_middle a {
+    vertical-align: middle;
+}
+
+footer a:hover {
+    text-decoration-line: underline;
+}
+
+
+footer .email a {
+    color: #B38D59;
+    padding-bottom: 8px;
+}
+
+footer .contact {
+    padding: 10px 15px 0px;
+
+}
+
+.myslides {
+    height: auto;
+}
+
+.buttonleft {
+    cursor: pointer;
+}
+
+.slide {
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+
+.copyright {
+    padding: 8px;
+    clear: both;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/*Queries*/
+
+@media only screen and (max-device-width: 1366px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_middle {
+        width: 370px
+    }
+    .floating {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    main{
+        max-width: 95%;
+    }
+    /* body{
+        background: url(../img/Zoom_Bouquet_Sperience_small.jpg)no-repeat center center fixed;
+    } */
+}
+
+@media screen and (max-width: 800px) {
+    main article {
+        font-size: 100%;
+    }
+    footer .footer_left {
+        text-align: center;
+    }
+    .footer_middle {
+        padding: 10px;
+        width: 90%;
+    }
+    .logo_gdc,
+    .logo_dec,
+    .logo_body {
+        padding-bottom: 12px;
+        padding-top: 3px;
+    }
+    main article ul.summary li {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .album {
+        max-width: 160px;
+    }
+
+}
+
+@media screen and (min-height: 801px) {
+    header{
+        position: fixed;
+    }
+    main{
+        margin-top: 270px;
+    }
+}
+
+
+@media screen and (min-width: 801px) {
+    
+    
+    .alert{
+        max-width: 60%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 20% 50% 20%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    footer .footer_left {
+        text-align: center;
+    }
+
+    .logo_gdc,
+    .logo_dec,
+    .logo_body {
+        padding: 12px;
+
+    }
+    
+
+    main article {
+        font-size: 90%;
+    }
+
+    main article ul.summary .listItem{
+        margin-left: 20%;
+    }
+
+    main article ul.summary li {
+        margin-left: 40%;
+
+    }
+
+    .article-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .article-container div {
+        align-self: center;
+    }
+
+    .footer_middle {
+        width: 370px;
+    }
+
+    body{
+        
+    }
+
+
+}
