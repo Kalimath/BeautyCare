@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Beauty Care | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair%7cCinzel%7cGreat+Vibes%7cHandlee%7cquicksand"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <meta name="google-site-verification" content="GdaARc8JIsHj-2gdLzIJrSCvjJfgLuG8GZ5ZwA_3vDg" />
+
+    <head>
+        <meta name="description" content="Schoonheidsinstituut dat jarenlange ervaring combineert met de nieuwste technologiën en eigen schoonheidstechnieken. 
+                Gespecialiseerd in behandelingen van het gelaat, afslanking en huidverjonging.">
+    </head>
+</head>
+
+<body>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
+    <!--  HEADER  -->
+    <include src="./partials/header.html"></include>
+
+    <main>
+
+        <!-- <article>
+            <img src="img/kerstWensen2020.PNG" alt="prettige feestdagen 2020" class="imagewide">
+        </article> -->
+
+        <article class="ac">
+
+            <!-- <h3>Lockdown 3.0</h3>
+                <p>Het instituut is gesloten tot 26 april 2021</p> -->
+            <!-- <img class="imagewide" src="img/MG_banner2.jpeg" alt="Maria Galland banner"> -->
+            <h2>Welkom terug</h2>
+            <img class="imagewide" src="img/Maria_Galland/Mille/MG_Mille_krachtVanGoud_wide.jpg" alt="Maria Galland kracht van goud">
+            <h3>25 jaar Beauty Care</h3>
+            <img class="imagewide" src="img/25jaar_1080p.png" alt="25 jaar">
+        </article>
+        <!-- <article class="ac">
+            <h3>Producten</h3>
+            <p>Je favoriete producten kan je ophalen of laten leveren na telefonische afspraak: <br><em> 015<span
+                        style="color: #fff;"><i style="display:none;">-</i>
+                    </span>76 14 15</em></p> -->
+            <!-- <h3>Cadeaubons</h3>
+            <p>Cadeaubons met vervaldatum 2020 tot augustus 2021 worden verlengd tot 4 december 2021</p> -->
+            <!-- <div class="article-container">
+                <p><em><br>met vervaldatum eind 2020 <br>verlenging tot 30 juni 2021</em></p>
+                <p><em><br>tussen 2020-2021 <br>verlenging met 5 maanden</em></p>
+            </div> -->
+            <!-- <p>(periode lockdown)</p>
+        </article> -->
+
+        <!-- <article class="ac">
+            <h2 style="text-align: center;">COVID-19</h2>
+            <p>Het instituut treft allerlei maatregelen voor uw gezondheid. </p> 
+            <p>Klik <a href="info.html#covid19" class="sublink" >hier</a> om meer te weten te komen.</p>
+        </article> -->
+
+        <div class="quote">
+            <h3>Stop, haal diep adem en ontspan je.</h3>
+            <p>Dit is uw moment</p>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <include src="./partials/footer.html"></include>
+
+</body>
+
+<script src="http://code.jquery.com/jquery-1.8.3.min.js">
+    $(function () {
+        $('a').each(function () {
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('current');
+            }
+        });
+    });
+
+</script>
+
+</html>

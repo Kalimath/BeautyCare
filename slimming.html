@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Beauty Care | Afslanking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair%7cCinzel%7cGreat+Vibes%7cHandlee%7cquicksand"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+</head>
+
+<body>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
+    <!--  HEADER  -->
+    <include src="./partials/header.html"></include>
+    <banner>
+        <p> </p>
+    </banner>
+    <main>
+        <div style="text-align: left;">
+            <img class="logoarticle" src="img/BS_approved_21.png" alt="Bodysculptor gecertificeerd instituut">
+        </div>
+        <h2>Afslanking</h2>
+
+        <article class="ac">
+            <div class="article-container">
+                <div>
+                    <h3>Laat je verbazen</h3>
+                    <p>Gemiddeld centimeterverlies opgenomen bij <em>studie door Dr. Beilin</em> te Parijs! </p>
+                    <p>Laat je verbazen door deze medische afslankmethode! </p>
+                    <p>@bodysculptor_benelux</p>
+                </div>
+                <img class="imagenarrow" src="img/BS_silhouette.jpeg"
+                    alt="Bodysculptor silhouette met verlies in omtrekken">
+            </div>
+        </article>
+        <article class="ac">
+            <h3>BodySculptor excell+S</h3>
+            <div class="article-container" style="vertical-align:middle">
+                <p>BodySculptor excell+S is een medische technologie ontwikkeld voor de esthetische wereld. <br>Het
+                    maakt gebruik van <em>BioStimology®</em> over het gehele lichaam. Het gelaat, de armen, de taille,
+                    de dijen en de kuiten worden behandeld. </p>
+                <img class="imagenarrow" src="img/Bodysculptor%20400px%20vertic.png"
+                    alt="Bodysculptor excell+ behandeling">
+                <img class="imagenarrow" src="img/BS_bodies.jpeg" alt="Bodysculptor excell+ voor en na vergelijking">
+
+
+                <p>Een <em>BIO-energetisch veld</em> (50Hz) zorgt voor een calorieverbruik van 650kCal dankzij
+                    onmerkbare spiercontracties (Glad spierweefsel). Met als gevolg dat de natuurlijke processen van de
+                    lipolyse (afbraak van vetten) onmiddellijk worden gestimuleerd. <br><br>Met andere woorden er komen
+                    dankzij een behandeling met <em>BioStimology®</em> heel wat vetzuren vrij. De cellen verminderen in
+                    omvang en vocht en toxines komen vrij. </p>
+
+                <div>
+                    <p class="summaryTitle">Effecten LYMFEDRAINAGE</p>
+                    <ul class="summary">
+                        <li>Natuurlijke ontlasting van het lymfatische systeem</li>
+                        <li>Strakkere huid</li>
+                        <li>Mooier teint op de huid</li>
+                        <li>Duurzaam effect op de behandeling van cellulite</li>
+                        <li>Lichtere benen</li>
+                    </ul>
+                </div>
+                <img class="imagenarrow" src="img/BS_body.jpeg" alt="Bodysculptor excell+ werking">
+
+
+                <iframe class="videoframe" src="https://www.youtube.com/embed/Uwg42txosGA">
+                </iframe>
+                <div>
+                    <p><em>Verfijn je figuur met BodySculptor</em></p>
+
+                    <p>
+                        Een behandeling met BodySculptor excell+S haalt op natuurlijke wijze de vetcellen uit de cellen
+                        om je figuur te verfijnen en te versterken. Het gecombineerde effect van het BioEnergetisch-veld
+                        op de lipolyse en de huid zorgt ervoor dat het hele lichaam opnieuw wordt gevormd (gelaat,
+                        armen, taille, heupen, dijen, knieën en kuiten) om een harmonisch lichaam te herstellen.
+                    </p>
+                </div>
+            </div>
+
+        </article>
+
+
+        <div class="quote">
+            <p>Schoonheid is immers de harmonie tussen proporties...</p>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <include src="./partials/footer.html"></include>
+
+</body>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+    $(function () {
+        $('a').each(function () {
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('current');
+            }
+        });
+    });
+</script>
+
+</html>

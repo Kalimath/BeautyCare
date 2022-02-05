@@ -1,0 +1,337 @@
+//Ontworpen door: Mathieu Broeckhoven
+header nav {
+    clear: both;
+    padding-left: 5px;
+}
+
+header nav li ul {
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav a {
+    font-family: Bellefair;
+    color: white;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    font-size: 120%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 2px ridge cornflowerblue;
+}
+
+header nav a:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 470%;
+    padding-top: 30px;
+    font-family: great vibes;
+    text-align: center;
+
+
+}
+
+header .slog {
+    margin-bottom: 15px;
+    font-family: great vibes;
+    font-size: 180%;
+    padding-top: 8px;
+
+}
+
+main {
+    font-size: 120%;
+    padding: 15px;
+    color: #706259;
+    text-align: center;
+    max-width: 1200px;
+}
+
+main h2 {
+    padding: 10px;
+    padding-bottom: 20px;
+    color: #B38D59;
+    font-weight: bold;
+    font-size: 200%
+}
+
+main article {
+    padding: 20px;
+}
+
+main .summageArticle{
+    background-color:antiquewhite;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main article ul.summary {
+    padding-bottom: 30px;
+    font-family: inherit;
+    border: 2px;
+    color: #B38D59;
+    align-items: left;
+    
+}
+
+/*main article ul.summary {
+    padding-bottom: 30px;
+    font-family: inherit;
+    border: 2px;
+    color: #B38D59;
+    align-items: center;
+    
+}*/
+
+main article ul.summary li {
+    line-height: 2;
+    margin-left: 2%;
+    
+    font-size: inherit;
+    padding-left: 5px;
+    text-align: left;
+    list-style: disc;
+    list-style-position: outside;
+    
+}
+
+/*main article ul.summary li {
+    line-height: 2;
+    font-size: inherit;
+    padding-left: 5px;
+    text-align: left;
+    list-style: disc;
+    list-style-position: outside;
+    
+}*/
+
+main article p {
+    font-family: Bellefair;
+    font-size: 120%;
+    line-height: 1.4;
+    padding: 10px 0px 30px 0px;
+}
+
+main article .summaryTitle{
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+.imageinline {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+
+}
+
+.quote {
+    padding-top: 20px;
+    border-color: aqua;
+    margin: 2px;
+    font-size: 120%;
+
+}
+
+main h3 {
+    font-family: handlee;
+    font-size: 150%;
+    font-weight: bold;
+    color: #B38D59;
+    padding-bottom: 8px 0px 20px 0px;
+
+}
+
+main em {
+    color: #B38D59;
+    font-size: 130%;
+}
+
+b{
+    text-decoration: underline;
+}
+
+main > .quote > p {
+    padding-top: 5px;
+    font-family: handlee;
+    font-size: 140%
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_middle {
+        width: 370px
+    }
+}
+
+.footer_middle {
+    width: 370px;
+}
+
+@media screen and (max-width: 800px) {
+    footer .footer_left {
+        text-align: center;
+    }
+    .footer_middle {
+        padding: 10px;
+    }
+    .logo_gdc,
+    .logo_dec,
+    .logo_body {
+        padding-bottom: 12px;
+        padding-top: 3px;
+    }
+    /* main article ul.summary li {
+    margin-left: 25%;
+    margin-right: 25%;
+    }*/
+}
+
+
+@media screen and (min-width: 801px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 20% 50% 20%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    footer .footer_left {
+        text-align: center;
+    }
+
+    .logo_gdc,
+    .logo_dec,
+    .logo_body {
+        padding: 12px;
+
+    }
+    
+    /*main article ul.summary li {
+    margin-left: 40%;
+    margin-right: 25%;
+    }*/
+}
+
+banner {
+    background-image: url(../img/Zoom%20Bouquet.jpg);
+    height: 90px;
+    width: auto;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.grid-container {
+    height: auto;
+    font-family: Bellefair;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .footer_left {
+    font-size: 140%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+footer .footer_right {
+    margin: auto;
+    font-size: 140%;
+}
+
+.medialinks {
+    padding: 15px;
+}
+
+.footer_middle {
+    font-size: 280%;
+    margin: auto;
+}
+
+footer .footer_middle a {
+    vertical-align: middle;
+}
+
+footer a:hover {
+    text-decoration-line: underline;
+}
+
+
+footer .email a {
+    color: #B38D59;
+    padding-bottom: 8px;
+}
+
+footer .contact {
+    padding: 10px 15px 0px;
+
+}
+
+.myslides {
+    height: auto;
+}
+
+.buttonleft {
+    cursor: pointer;
+}
+
+.slide {
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.copyright {
+    padding: 8px;
+    clear: both;
+}

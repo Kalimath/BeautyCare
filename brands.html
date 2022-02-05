@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Beauty Care | Producten</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair%7cCinzel%7cGreat+Vibes%7cHandlee%7cquicksand"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+</head>
+
+<body>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
+    <!--  HEADER  -->
+    <include src="./partials/header.html"></include>
+    <banner>
+        <p> </p>
+    </banner>
+    <main>
+        <article>
+            <h2>Producten
+            </h2>
+            <p>Beauty Care werkt met producten van onderstaande merken.</p>
+            <p>Volgende merken hebben producten die gemaakt zijn van natuurlijke en kwalitatieve grondstoffen. <br> Deze
+                leveren <em>superieure resultaten</em> tot gevolg.
+            </p>
+
+
+        </article>
+        <div class="article-container">
+            <div class="brand">
+                <img class="imagenarrow" src="img/MARIA-GALLAND-PARIS_Logo_RGB-800x184_2.png"
+                    alt="Maria Galland Parijs logo">
+                <img class="imagenarrow" src="img/MG-merk.jpg" alt="Maria Galland">
+            </div>
+            <div>
+                <article class="articleFromBrand">
+                    <h3>Huidstamcellen</h3>
+                    <p>Oude kruidenwetenschappen, zoals Ayurveda en Oosters-Chinese geneeskunde, hebben altijd planten
+                        gebruikt om ontstekingen te
+                        behandelen en de huid te genezen. <br> We gebruiken nu al <em>extracten van plantaardige
+                            stamcellen</em>.
+                        Klinische studies toonden aan dat deze extracten de natuurlijke stamcellen van de huid
+                        stimuleren en ook hun eigen
+                        speciale voordelen hebben:</p>
+                    <img class="imagenarrow" src="img/huidstamcellen_info.png" alt="huidstamcellen info Maria Galland">
+                </article>
+            </div>
+            <!-- <div class="brand">
+                <img class="imagenarrow" src="img/Ikari-merk.jpg" alt="Ikari producten">
+            </div>
+            <div>
+                
+            </div> -->
+        </div>
+        <article></article>
+        <div class="article-container">
+            <article class="ac">
+                <h3 class="imagenarrow">Ikari</h3>
+
+                <img class="imagenarrow" src="img/Ikari-merk.jpg" alt="Ikari producten">
+            </article>
+            <article class="ac">
+                <h3 class="imagenarrow">Germaine de Capuccini</h3>
+
+                <img class="imagenarrow" src="img/GDC-merk.png" alt="Germaine de Capuccini">
+            </article>
+            <article class="ac">
+                <h3 class="imagenarrow">Pupa</h3>
+                <img class="imagenarrow" src="img/Pupa-merk.jpg" alt="Pupa producten">
+                
+            </article>
+            <article class="ac">
+                <h3 class="imagenarrow">Decléor</h3>
+                <img class="imagenarrow" src="img/Decleor-merk.jpg" alt="Decléor producten">
+            </article>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="quote">
+            <h3>Stop, haal diep adem en ontspan je.</h3>
+            <p>Dit is uw moment</p>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <include src="./partials/footer.html"></include>
+
+</body>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+</html>

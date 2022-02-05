@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Beauty Care | Nieuw</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair%7cCinzel%7cGreat+Vibes%7cHandlee%7cquicksand"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+</head>
+
+<body>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
+    <!--  HEADER  -->
+    <include src="./partials/header.html"></include>
+    <banner>
+        <p> </p>
+    </banner>
+    <main>
+        <h2>Nieuw</h2>
+
+        <article class="ac">
+            <div>
+                <h3>Mille</h3>
+
+                <img class="logoinarticle" src="img/MARIA-GALLAND-PARIS_Logo_RGB-800x184_2.png"
+                    alt="Maria Galland Parijs logo">
+            </div>
+            <div class="article-container">
+                <img class="imagenarrow" src="img/Maria_Galland/Mille/MG_Mille_producten.jpg"
+                    alt="Maria Galland Mille producten">
+                <img class="imagewide" src="img/Maria_Galland/Mille/MG_Mille_oliefactorischeSignatuur.jpg"
+                    alt="Maria Galland Mille producten">
+                <img class="imagewide" src="img/Maria_Galland/Mille/MG_Mille_Top-C.png"
+                    alt="Maria Galland Mille producten">
+                <img class="imagenarrow" src="img/Maria_Galland/Mille/MG_Mille_krachtVanGoud.jpg"
+                    alt="Maria Galland Mille producten">
+
+            </div>
+            </div>
+        </article>
+
+        <article class="ac">
+            <div class="article-container">
+                <div>
+                    <h3>Moonstone</h3>
+                    <img class="logoinarticle" src="img/MARIA-GALLAND-PARIS_Logo_RGB-800x184_2.png"
+                        alt="Maria Galland Parijs logo">
+                    <p>Winter gelaatsbehandeling <br>(limited edition)</p>
+                    <img class="imagewide" src="img/Maria_Galland/Moonstone/Moonstone MG.jpg"
+                        alt="Maria Galland Moonstone behandeling">
+                </div>
+                <img class="imagenarrow" src="img/Dame_winter.png" alt="dame winter">
+
+
+            </div>
+            </div>
+        </article>
+
+        <article class="ac">
+            <div class="article-container">
+                <div>
+                    <h3>Mascara</h3>
+
+                    <img class="logoinarticle" src="img/MARIA-GALLAND-PARIS_Logo_RGB-800x184_2.png"
+                        alt="Maria Galland Parijs logo">
+                </div>
+                <img class="imagenarrow" src="img/zomerVideo2020/10.jpg" alt="Maria Galland mascara">
+            </div>
+            </div>
+        </article>
+
+        <article class="ac">
+            <div class="article-container">
+                <div>
+                    <h3>Activ'Age</h3>
+                    <p>Verzacht de tekenen des tijds.<br>Activeert je schoonheid.</p>
+                    <img class="logoinarticle" src="img/MARIA-GALLAND-PARIS_Logo_RGB-800x184_2.png"
+                        alt="Maria Galland Parijs logo">
+                </div>
+                <img class="imagenarrow" src="img/Activ'Age_producten.jpg" alt="Maria Galland Activ'Age producten">
+            </div>
+        </article>
+
+        <div class="quote">
+            <p hidden>quote Maria Galland</p>
+            <p style="padding-bottom: 10px">Be good to <em>your skin</em></P>
+            <p> You'll be wearing it for the rest of <em>your life</em></p>
+
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <include src="./partials/footer.html"></include>
+
+</body>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+    $(function () {
+        $('a').each(function () {
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('current');
+            }
+        });
+    });
+</script>
+
+</html>

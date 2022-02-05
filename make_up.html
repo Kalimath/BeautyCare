@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Beauty Care | Make Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair%7cCinzel%7cGreat+Vibes%7cHandlee%7cquicksand" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+</head>
+
+<body>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
+    <!--  HEADER  -->
+    <include src="./partials/header.html"></include>
+    <banner>
+        <p> </p>
+    </banner>
+    <main>
+        <article>
+            <h2>Make-Up</h2>
+        </article>
+        <article class="ac">
+
+            <div class="article-container">
+                <div>
+                    <h3></h3>
+                    <img class="logoinarticle" src="img/MARIA-GALLAND-PARIS_Logo_RGB-800x184_2.png" alt="Maria Galland Parijs logo">
+                </div>
+                <img class="imagenarrow" src="img/MG_make-up_tropischedroom.jpeg" alt="Maria Galland make-up tropische droom">
+            </div>
+        </article>
+        <article class="ac">
+            <h3>Pupa make-up</h3>
+            <div class="article-container">
+                <img class="imagenarrow" src="img/gelaat1.jpeg" alt="Pupa producten">
+                <img class="imagenarrow" src="img/gelaat6.jpeg" alt="Pupa producten">
+            </div>
+        </article>
+        <article class="ac">
+            <div class="article-container">
+                <img class="imagenarrow" src="img/PM3.jpeg" alt="">
+                <div>
+                    <h3>Permanente make-up</h3>
+                    <p>Volgende afspraak</p>
+                    <ul class="summary">
+                        <li>Maandag 7 februari 2022</li>
+                        
+                        <p>reserveer tijdig a.u.b</p>
+                    </ul><img class="imagenarrow" src="img/PM1.jpeg" alt="">
+                </div>
+            </div>
+        </article>
+        <article class="ac">
+            <p>Jaarlijkse opleiding bij <em>Giorgio Forgani</em> - International Makeup Artist</p>
+
+            <div class="row">
+                <p></p>
+                <div class="column">
+                    <img src="img/gelaat3.jpeg" style="width:100%">
+
+                </div>
+                <div class="column">
+                    <img src="img/gelaat4.jpeg" style="width:100%">
+
+                </div>
+                <div class="column">
+                    <img src="img/gelaat5.jpeg" alt="Pupa producten" style="width:100%">
+                </div>
+                <div class="column">
+
+                    <img src="img/gelaat2.jpeg" style="width:100%">
+
+                </div>
+            </div>
+        </article>
+        <div class="quote">
+            <h3>Stop, haal diep adem en ontspan je.</h3>
+            <p>Dit is uw moment</p>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <include src="./partials/footer.html"></include>
+
+</body>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Beauty Care | Galerij - Cruise 2014</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair%7cCinzel%7cGreat+Vibes%7cHandlee%7cquicksand" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+</head>
+
+<body>
+<script src="https://unpkg.com/htmlincludejs"></script>
+
+<!--  HEADER  -->
+<include src="./partials/header.html"></include>
+
+    <main>
+
+        <h2><a class="link" href="gallery.html">Galerij</a> > Cruise 2014</h2>
+        <article>
+            <h3>Cruise "Great Celebration" Germaine de Cappuccini </h3>
+            <p>met opleidingen aan boord (oktober 2014)</p>
+
+            <div class="row">
+                <div class="column">
+
+                    <img src="img/cruise14%201.jpeg" style="width:100%">
+                    <img src="img/cruise14%205.jpeg" style="width:100%">
+
+                </div>
+                <div class="column">
+                    <img src="img/cruise14%202.jpeg" style="width:100%">
+                    <img src="img/cruise14%206.jpeg" style="width:100%">
+
+
+                </div>
+                <div class="column">
+                    <img src="img/cruise14%203.jpeg" style="width:100%">
+                    <img src="img/cruise14%207.jpeg" style="width:100%">
+
+
+
+                </div>
+                <div class="column">
+                    <img src="img/cruise14%204.jpeg" style="width:100%">
+                    <img src="img/cruise14%208.jpeg" style="width:100%">
+
+
+
+                </div>
+            </div>
+        </article>
+        <p class="quote">Om terug te gaan naar Galerij klik <a class="link" href="gallery.html">hier</a>.</p>
+
+        <div class="quote">
+            <h3>Stop, haal diep adem en ontspan je.</h3>
+            <p>Dit is uw moment</p>
+        </div>
+    </main>
+
+<!-- FOOTER -->
+<include src="./partials/footer.html"></include>
+
+</body>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+</html>
