@@ -1,6 +1,7 @@
 header nav {
     clear: both;
     padding-left: 5px;
+
 }
 
 header nav li ul {
@@ -17,54 +18,57 @@ banner {
     display: block;
     
 }
-
+html{
+    background-color: rgb(224,224,224);
+}
 body {
+    font-family: 'Lato', sans-serif;
     background-size: cover;
     font-size: 100%;
     width: 100%;
     height: 100%;
-    /* min-height: 100vh; */
+    /*background-color: rgb(224,224,224);*/
     display: flex;
     flex-direction: column;
-
+    /*background-color: #C9ABA0;*/
+    /*background-color: rgb(216,197,203);*/
     /* standaard */
-    background: url(../img/background/Zoom_Bouquet_Sperience_large.jpg)repeat top center fixed;
-
-    /* kerst */
-    /* background: url(../img/background/goldSparks_4K.png)repeat top center fixed; */
-    
-
+    background-size: 100% 100%;
+    background: url(../img/pioenroos.jpeg) center no-repeat fixed;
 
 }
 
 header nav a {
-    font-family: Bellefair;
+
     color: white;
     display: block;
     padding: 8px;
     text-align: center;
-    font-size: 120%;
+    font-size: 130%;
 }
 
-nav a.current{
-    color: #B38D59;
+header nav a.current{
+    color: #706259;
 }
 
 header nav a:hover {
     transition: 0.4s;
     background-color: white;
-    color: black;
+    color: #C9ABA0;
     border-color: white;
-    
 }
 
 header {
+    position: sticky;
     height: auto;
     width: 100%;
-    background-color: black;
+    /*background-color: #DAA8A0;*/
+    background-color: #C9ABA0;
+    /*CAA46D*/
     color: white;
     text-align: center;
     z-index: 3;
+    padding-bottom: 10px;
 }
 
 header h1 {
@@ -76,10 +80,10 @@ header h1 {
 
 header .slog {
     margin-bottom: 15px;
-    font-family: great vibes;
+    font-family: great vibes, cursive;
+    color: #706259;
     font-size: 180%;
     padding-top: 8px;
-
 }
 
 footer a {
@@ -97,7 +101,8 @@ main a{
 }
 
 main a:hover{
-    color:  #B38D59;
+    color: #C9ABA0;
+    transition: .4s;
 }
 
 .subLink {
@@ -117,13 +122,13 @@ a:focus {
 main {
     font-size: 120%;
     padding: 15px;
-    color: #706259;
+    color: #C9ABA0;
     text-align: center;
     max-width: 1200px;
-    background-color: white;
-    margin-bottom: 80px;
+    min-height: 1000px;
+    background-color: rgba(255, 255, 255, 0.75);
     margin-top: 80px;
-
+    position: relative;
     /* Margin for transparent borders */
     max-width: 90%;
     align-self: center;
@@ -134,11 +139,26 @@ sup {
     font-size: smaller;
   }
 
-main h2 {
-    padding: 10px;
-    padding-bottom: 20px;
-    font-weight: bold;
+h2 {
+    padding: 20px;
+    color: #C9ABA0;
+    font-weight: bolder;
     font-size: 300%;
+    vertical-align: central;
+}
+
+h3 {
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 220%;
+    font-weight: bold;
+    padding: 15px 0px 10px 0px;
+}
+
+h4{
+    padding-top: 10px;
+    font-size: 130%;
+    font-weight: bold;
 }
 
 main article {
@@ -146,14 +166,15 @@ main article {
 
 }
 
-main .summageArticle .summaryTitle {}
+.centeredText {
+    text-align: center;
+}
 
 
 main article ul.summary {
     padding-bottom: 30px;
-    font-family: inherit;
     border: 2px;
-    color: #B38D59;
+    /*color: #B38D59;*/
     align-items: center;
 
 }
@@ -180,6 +201,23 @@ main article p {
     font-size: 120%;
     line-height: 1.4;
     padding: 10px 0px 30px 0px;
+}
+
+.ac {
+    /*border-bottom: 15px solid rgba(255, 255, 255, 0.7);*/
+    /*background-color: rgba(201, 171, 160, 0.6);*/
+}
+
+.ac {
+    font-family: Bellefair, sans-serif;
+}
+
+.articleFromBrand{
+    border-left: 2px solid #706259;
+}
+
+ac:first-child {
+    border-top: 2px solid #706259;
 }
 
 .floating {
@@ -215,6 +253,7 @@ main article p {
     width: 100%;
     margin: auto;
     height: auto;
+    align-items: center;
 }
 
 .imageround {
@@ -273,13 +312,14 @@ main .centered {
     height: 400px;
 }
 
-.quote {
+.quote{
+    font-family: handlee;
+    color: #DAA8A0;
     clear: both;
     padding: 20px;
     border-color: aqua;
     margin: 2px;
     font-size: 120%;
-
 }
 
 .contactImage {
@@ -287,6 +327,7 @@ main .centered {
 }
 
 .videoframe {
+    vertical-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     max-width: 500px;
@@ -307,21 +348,12 @@ main .centered {
 
 }
 
-h3 {
-    display: block;
-    font-family: handlee;
-    font-size: 170%;
-    font-weight: bold;
-    color: #B38D59;
-    padding: 15px 0px 10px 0px;
 
-
-
-}
 
 main em {
-    color: #B38D59;
-    font-size: 130%;
+    font-family: sans-serif;
+    font-weight: normal;
+
 }
 
 b {
@@ -335,7 +367,7 @@ b {
 
 .quote > p {
     padding-top: 5px;
-    font-family: handlee;
+
     font-size: 140%
     
 }
@@ -349,18 +381,7 @@ b {
     font-family: inherit; 
 }
 
-.ac {
-    border-bottom: 2px solid #706259;
 
-}
-
-.articleFromBrand{
-    border-left: 2px solid #706259;
-}
-
-ac:first-child {
-    border-top: 2px solid #706259;
-}
 
 
 .album {
@@ -401,7 +422,7 @@ footer a:hover {
 }
 
 .link {
-    color: #B38D59;
+    text-decoration: none;
 
 }
 
@@ -410,27 +431,28 @@ footer a:hover {
 }
 
 .button {
-    color: #B38D59;
+    color: #706259;
     border-radius: 10em;
     font-family: Bellefair;
     font-size: 150%;
     margin: 20px;
     padding: 10px 20px 10px 20px;
     background: transparent;
-    border-color: #B38D59;
+    border-color: #706259;
     border-style: solid;
 }
 
 .button:hover {
-    color: #706259;
-    border-color: #706259;
+    color: #DAA8A0;
+    border-color: #DAA8A0;
+    transition: .4s;
 }
 
 
 
 footer {
 
-    background-color: black;
+    background-color: #C9ABA0;
     height: auto;
     left: 0;
     bottom: 0;
@@ -530,7 +552,14 @@ footer .contact {
     vertical-align: middle;
 }
 
-/*Queries*/
+/*Media queries*/
+@media only screen and (max-width: 1000px) {
+    header h1{
+        font-size: 400%;
+        padding-top: 20px;
+    }
+}
+
 
 @media only screen and (max-device-width: 1366px) {
     body {
@@ -539,10 +568,21 @@ footer .contact {
 }
 
 @media screen and (min-width: 1200px) {
+
     main {
         width: 1200px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    main article{
+        text-align: left;
+    }
+
+
+
+    .summaryTitle{
+        text-align: center;
     }
     .footer_middle {
         width: 370px
@@ -550,7 +590,9 @@ footer .contact {
     .floating {
         display: inline-block;
     }
+
 }
+
 
 @media screen and (max-width: 600px) {
     .column {
@@ -558,7 +600,6 @@ footer .contact {
         flex: 100%;
         max-width: 100%;
     }
-
     main{
         max-width: 95%;
     }
@@ -566,6 +607,9 @@ footer .contact {
 }
 
 @media screen and (max-width: 800px) {
+    header nav a{
+        font-size: 120%;
+    }
     main article {
         font-size: 100%;
     }
@@ -582,6 +626,9 @@ footer .contact {
         padding-bottom: 12px;
         padding-top: 3px;
     }
+    main{
+        padding-top: 45px;
+    }
     main article ul.summary li {
         margin-left: 25%;
         margin-right: 25%;
@@ -594,9 +641,6 @@ footer .contact {
     .album {
         max-width: 160px;
     }
-    body{
-        background: url(../img/background/Zoom_Bouquet_Sperience_small.jpg)repeat top center fixed;
-    }
 
 }
 
@@ -605,14 +649,12 @@ footer .contact {
         position: fixed;
     }
     main{
-        margin-top: 270px;
+        margin-top: 200px;
     }
 }
 
-
 @media screen and (min-width: 801px) {
-    
-    
+
     .alert{
         max-width: 60%;
     }
@@ -633,7 +675,6 @@ footer .contact {
         padding: 12px;
 
     }
-    
 
     main article {
         font-size: 90%;
@@ -651,20 +692,24 @@ footer .contact {
     .article-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-
+        padding: 5px;
+        align-items: center;
     }
 
     .article-container div {
         align-self: center;
+        align-content: center;
+
+    }
+
+    .article-container p {
+        padding: 5px;
     }
 
     .footer_middle {
         width: 370px;
     }
 
-    body{
-        
-    }
 
 
 }
