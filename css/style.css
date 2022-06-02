@@ -39,7 +39,7 @@ body {
 }
 
 header nav a {
-
+    font-weight: bold;
     color: white;
     display: block;
     padding: 8px;
@@ -56,6 +56,7 @@ header nav a:hover {
     background-color: white;
     color: #C9ABA0;
     border-color: white;
+    
 }
 
 header {
@@ -174,7 +175,9 @@ main article {
 main article ul.summary {
     padding-bottom: 30px;
     border: 2px;
-    /*color: #B38D59;*/
+    color: #706259;
+    font-family: 'Lato';
+    font-weight: bold;
     align-items: center;
 
 }
@@ -560,6 +563,7 @@ footer .contact {
     }
 }
 
+
 @media screen and (min-width: 1200px) {
 
     main {
@@ -571,8 +575,6 @@ footer .contact {
     main article{
         text-align: left;
     }
-
-
 
     .summaryTitle{
         text-align: center;
@@ -626,8 +628,8 @@ footer .contact {
         padding-top: 45px;
     }
     main article ul.summary li {
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .column {
         -ms-flex: 50%;

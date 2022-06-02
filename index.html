@@ -3,7 +3,6 @@
 <html lang="nl">
 
 <head>
-
     <title>Beauty Care | Home</title>
     <!--  LINKS  -->
     <link href="css/reset.css" rel="stylesheet" type="text/css">
@@ -14,82 +13,28 @@
     <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--  META  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="google-site-verification" content="GdaARc8JIsHj-2gdLzIJrSCvjJfgLuG8GZ5ZwA_3vDg" />
+    <meta name="description" content="Schoonheidsinstituut dat jarenlange ervaring combineert met de nieuwste technologiën en eigen schoonheidstechnieken.
+                Gespecialiseerd in behandelingen van het gelaat, afslanking en huidverjonging.">
+
 </head>
 
 <body>
     <script src="https://unpkg.com/htmlincludejs"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/lib/uic.js?v=1.0.1"></script>
 
     <!--  HEADER  -->
     <include src="./partials/header.html"></include>
 
+
     <main>
-        <article>
-            <div class="welcomeQuote">
-                <p style="padding-bottom: 0px"><em>Welkom</em><br> to the good side of life</p>
-            </div>
-        </article>
-
-        <article class="alert">
-
-            <!-- <p><em>Instituut gesloten tot nader bericht</em><br> -->
-            <p>Beste klant, uw instituut is gesloten tot 15 januari <br>
-                Samen sterk tegen Corona, stay safe</p>
-            <div style="align-content: center;">
-                <img src="img/skin_mirrors_life_MariaGallandParis_3.jpeg"
-                    alt="Your skin mirrors what you live Maria Galland"
-                    title="Your skin mirrors what you live Maria Galland" class="imagenarrow">
-                <div>
-                    <p class="quote">Producten bestellen:</p>
-                    <ul class="summary" style="padding-bottom: 0%;">
-                        <p style="line-height: normal; padding-bottom: 15px; color: #706259;">Telefonisch</p>
-                        <div>
-                            <ul class="summary">
-                                <li class="listItem" style="line-height: normal;">Gratis thuis geleverd
-                                    <br> </li>
-                                <li class="listItem" style="line-height: normal;">Afhalen
-                                    <br> </li>
-                               
-                            </ul>
-                        </div>
-
-                        <p style="line-height: normal; padding-bottom: 15px; color: #706259;">Online</p>
-                        <div>
-                            <ul class="summary">
-                                <li class="listItem" style="line-height: normal;">Veilig
-                                    <br> </li>
-                                <li class="listItem" style="line-height: normal;">Gratis verzending vanaf 75 euro
-                                    <br> </li>
-
-                            </ul>
-                        </div>
-
-                    </ul>
-
-                    <input type="button" href="shop.html" class="button" value="webshop"> </input>
-                    <p>Promotie's niet beschikbaar op de webshop</p>
-                    <p style="text-decoration: none;">Tel: 015<span style="color: #fff;"><i style="display:none;">-</i>
-                        </span>76 14 15</p>
-                </div>
-            </div>
-            <p>Voor advies neem gerust contact op dit nummer </p>
-            <p>Iedereen een goede gezondheid gewenst, <br>Sonia</p>
-        </article>
-
-        <!-- <article class="ac">
-            <h2 style="text-align: center;">COVID-19</h2>
-            <p>Het instituut treft allerlei maatregelen voor uw gezondheid. </p> 
-            <p>Klik <a href="info.html#covid19" class="sublink" >hier</a> om meer te weten te komen.</p>
-        </article> -->
-
-
-        <!-- <article>
-            <img src="img/MGP_Lumin_Eclat_visual.jpeg" alt="Maria Galland Paris Lumin'éclat" class="imagenarrow">
-        </article> -->
+        <h2>Welkom</h2>
+        <img class="imagewide" src="img/Maria_Galland/visuals/MG-shine-like-a-star-visual.jpg" alt="Maria Galland banner">
 
         <div class="quote">
             <p>Stop, haal diep adem en ontspan je.</p>
@@ -99,21 +44,16 @@
 
     <!-- FOOTER -->
     <include src="./partials/footer.html"></include>
+    <script>
 
+        $(function () {
+            $('a').each(function () {
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('current');
+                }
+            });
+        });
+    </script>
 </body>
-<script>
-    var x = document.getElementById("media9");
-    x.autoplay = true;
-    x.load();
-</script>
-<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script>
-$(function(){
-  $('a').each(function() {
-    if ($(this).prop('href') == window.location.href) {
-      $(this).addClass('current');
-    }
-  });
-});
-</script>
+
 </html>
